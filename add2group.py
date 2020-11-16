@@ -45,7 +45,7 @@ if not client.is_user_authorized():
     banner()
     client.sign_in(phone, input(gr+'[+] Enter the code: '+re))
  
-os.system('clear')
+
 banner()
 input_file = sys.argv[1]
 users = []
